@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: 15d9b696178b6a449bbd95ee8bf1fda0
+guid: 961d7ec7756c124429b7b8a9afedf339
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3885606428198185223
-    second: CharacterSideMovement_0
+      213: 701046768282805964
+    second: TopDownCharSideMovement_0
   - first:
-      213: -6760492195910943594
-    second: CharacterSideMovement_1
+      213: -7350548042314269313
+    second: TopDownCharSideMovement_1
   - first:
-      213: 3166914159909857456
-    second: CharacterSideMovement_2
-  - first:
-      213: -2122816263216368039
-    second: CharacterSideMovement_3
+      213: -7788820169741342449
+    second: TopDownCharSideMovement_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -57,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 130
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +120,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CharacterSideMovement_0
+      name: TopDownCharSideMovement_0
       rect:
         serializedVersion: 2
-        x: 168
-        y: 632
-        width: 168
-        height: 280
+        x: 184
+        y: 648
+        width: 144
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f6d5465a8d831ac0800000000000000
-      internalID: -3885606428198185223
+      spriteID: cc6ae6a425e9ab900800000000000000
+      internalID: 701046768282805964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterSideMovement_1
+      name: TopDownCharSideMovement_1
       rect:
         serializedVersion: 2
-        x: 680
-        y: 632
-        width: 168
-        height: 280
+        x: 664
+        y: 648
+        width: 208
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69c7deb9a28ed22a0800000000000000
-      internalID: -6760492195910943594
+      spriteID: f7d3a69108b9df990800000000000000
+      internalID: -7350548042314269313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterSideMovement_2
+      name: TopDownCharSideMovement_2
       rect:
         serializedVersion: 2
-        x: 168
-        y: 120
-        width: 168
-        height: 280
+        x: 152
+        y: 136
+        width: 208
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,29 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b8e49f36a323fb20800000000000000
-      internalID: 3166914159909857456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharacterSideMovement_3
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 120
-        width: 168
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 956f0931bdd3a82e0800000000000000
-      internalID: -2122816263216368039
+      spriteID: f096b23925d88e390800000000000000
+      internalID: -7788820169741342449
       vertices: []
       indices: 
       edges: []
