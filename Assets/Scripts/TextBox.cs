@@ -12,34 +12,48 @@ public class TextBox : MonoBehaviour
     public bool isPhoneChecked = false;
     public Sprite phone;
     int phoneStat = 0;
-    bool hacked = false;
+    static bool isHacked = false;
+    static int BigDoorStat = 0;
+    public SmallDoor sd;
+    public InnerDoor id;
+    static bool isInnerDoorOppened = false;
+    public BigDoor bd;
+    static bool isInstuctionOpened = false;
 
     void Start()
     {
         SetInvisible();
+        if (!isInstuctionOpened)
+        {
+            isInstuctionOpened = true;
+            GameInstruction();
+        }
     }
 
+    void GameInstruction() 
+    {
+        SetVisible();
+        tb.text = "To interact with world press to F key";
+        StartCoroutine(Skip());
+    }
     private void SetVisible()
     {
         bg.enabled = true;
         tb.enabled = true;
         press.enabled = true;
     }
-
     private void SetInvisible()
     {
         bg.enabled = false;
         tb.enabled = false;
         press.enabled = false;
     }
-
     public void InteractionBed()
     {
         SetVisible();
         tb.text = "I don't want to sleep anymore";
         StartCoroutine(Skip());
     }
-
     public void WindowInteraction() 
     {
         SetVisible();
@@ -58,10 +72,9 @@ public class TextBox : MonoBehaviour
         tb.text = "Can't go anywhere";
         StartCoroutine(Skip());
     }
-
     public void PCInteraction()
     {
-        if (!hacked)
+        if (!isHacked)
         {
             if (!isPhoneChecked)
             {
@@ -82,7 +95,7 @@ public class TextBox : MonoBehaviour
     }
     public void PhoneInteraction()
     {
-        if (!hacked)
+        if (!isHacked)
         {
             isPhoneChecked = true;
             SetVisible();
@@ -117,7 +130,7 @@ public class TextBox : MonoBehaviour
             SetVisible();
             if (phoneStat == 0)
             {
-                tb.text = "Thank you! I have received the documents. Before, I tell you what happened to your parents, I must say something very important.";
+                tb.text = "Thank you! I have received the documents. Before I tell you what happened to your parents, I must say something very important.";
                 StartCoroutine(Wait());
                 phoneStat++;
             }
@@ -130,7 +143,7 @@ public class TextBox : MonoBehaviour
             }
             else if (phoneStat == 2)
             {
-                tb.text = "Now I am sure. The second one was location locator they are now where are you now. Probably they are at the middle of the way." +
+                tb.text = "Now I am sure. The second one was location locator. They know where are you now. Probably they are at the middle of the way." +
                     "So good luck.";
                 StartCoroutine(Wait());
                 phoneStat++;
@@ -142,6 +155,50 @@ public class TextBox : MonoBehaviour
             }
         }
         
+    }
+    public void BigDoorInteraction()
+    {
+        if (BigDoorStat == 0)
+        {
+            SetVisible();
+            tb.text = "I need to find a way to open this door";
+            StartCoroutine(Skip());
+        }
+    }
+    public void SmallDoorInteraction()
+    {
+        sd.RemoveDoor();
+        SetVisible();
+        tb.text = "Wow, The door just dissapeared. Well, that was unexpected!";
+        StartCoroutine(Skip());
+    }
+    public void TriggerInteraction()
+    {
+        id.RemoveDoor();
+        SetVisible();
+        tb.text = "Oh, that trigger oppened this inner door";
+        StartCoroutine(Skip());
+    }
+    public void InnerDoorInteraction()
+    {
+        if (!isInnerDoorOppened)
+        {
+            SetVisible();
+            tb.text = "I think I need to trigger this button on the middle to open this door.";
+            StartCoroutine(Skip());
+        }
+    }
+    public void SwitchInteraction()
+    {
+        bd.RemoveDoor();
+        SetVisible();
+        tb.text = "I think this opened the big door";
+        StartCoroutine(Skip());
+    }
+    public void OfficeDesk()
+    {
+        isHacked = true;
+        SceneManager.LoadScene("The Room", 0);
     }
 
     private IEnumerator Skip()

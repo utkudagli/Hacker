@@ -1,0 +1,680 @@
+fileFormatVersion: 2
+guid: a6336707391f01e42ba322cf49396436
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2173567978437719706
+    second: CyberNetSpriteNew_0
+  - first:
+      213: -5906376590826716187
+    second: CyberNetSpriteNew_1
+  - first:
+      213: -7084583012662999388
+    second: CyberNetSpriteNew_2
+  - first:
+      213: -5202797675588828894
+    second: CyberNetSpriteNew_3
+  - first:
+      213: 6465391386288484400
+    second: CyberNetSpriteNew_4
+  - first:
+      213: -1728687055452324012
+    second: CyberNetSpriteNew_5
+  - first:
+      213: 8698665016502952817
+    second: CyberNetSpriteNew_6
+  - first:
+      213: 6246571403828518930
+    second: CyberNetSpriteNew_7
+  - first:
+      213: -2895401147822832475
+    second: CyberNetSpriteNew_8
+  - first:
+      213: 720494606460379790
+    second: CyberNetSpriteNew_9
+  - first:
+      213: -5173455788818596720
+    second: CyberNetSpriteNew_10
+  - first:
+      213: -7008248747868019371
+    second: CyberNetSpriteNew_11
+  - first:
+      213: -8660226936415816108
+    second: CyberNetSpriteNew_12
+  - first:
+      213: -4883293260857384086
+    second: CyberNetSpriteNew_13
+  - first:
+      213: -8636288349558550188
+    second: CyberNetSpriteNew_14
+  - first:
+      213: -2220006344434490952
+    second: CyberNetSpriteNew_15
+  - first:
+      213: 7242205244951190810
+    second: CyberNetSpriteNew_16
+  - first:
+      213: 1406587887883585539
+    second: CyberNetSpriteNew_17
+  - first:
+      213: -5092891608723340428
+    second: CyberNetSpriteNew_18
+  - first:
+      213: -9114569454967217336
+    second: CyberNetSpriteNew_19
+  - first:
+      213: 5017790049680839675
+    second: CyberNetSpriteNew_20
+  - first:
+      213: 3806269063209375612
+    second: CyberNetSpriteNew_21
+  - first:
+      213: 5709856925889002506
+    second: CyberNetSpriteNew_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12572
+        width: 2516
+        height: 3812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96b1f17f801a2e10800000000000000
+      internalID: 2173567978437719706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_1
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 15940
+        width: 808
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e34712b8c5580ea0800000000000000
+      internalID: -5906376590826716187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_2
+      rect:
+        serializedVersion: 2
+        x: 8180
+        y: 16236
+        width: 184
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6847429418ead90800000000000000
+      internalID: -7084583012662999388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_3
+      rect:
+        serializedVersion: 2
+        x: 12284
+        y: 15588
+        width: 4
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221cc446413fbc7b0800000000000000
+      internalID: -5202797675588828894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12084
+        width: 188
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0307891f53fa9b950800000000000000
+      internalID: 6465391386288484400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_5
+      rect:
+        serializedVersion: 2
+        x: 4092
+        y: 12084
+        width: 720
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fb2f338487208e0800000000000000
+      internalID: -1728687055452324012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_6
+      rect:
+        serializedVersion: 2
+        x: 8220
+        y: 11940
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173a6c8bebdd7b870800000000000000
+      internalID: 8698665016502952817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_7
+      rect:
+        serializedVersion: 2
+        x: 12284
+        y: 12087
+        width: 4
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210ef45989740b650800000000000000
+      internalID: 6246571403828518930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5084
+        width: 476
+        height: 3080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a403cd1ff771d7d0800000000000000
+      internalID: -2895401147822832475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_9
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 5084
+        width: 480
+        height: 3080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82e7a8f606bff900800000000000000
+      internalID: 720494606460379790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_10
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 4668
+        width: 4064
+        height: 3536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c7746ce513438b0800000000000000
+      internalID: -5173455788818596720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_11
+      rect:
+        serializedVersion: 2
+        x: 8180
+        y: 7276
+        width: 2512
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55520c525e2bdbe90800000000000000
+      internalID: -7008248747868019371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_12
+      rect:
+        serializedVersion: 2
+        x: 12284
+        y: 5087
+        width: 4
+        height: 3074
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4567aa43c71b0d780800000000000000
+      internalID: -8660226936415816108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_13
+      rect:
+        serializedVersion: 2
+        x: 9604
+        y: 7044
+        width: 192
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63698ce6ae0b3cb0800000000000000
+      internalID: -4883293260857384086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_14
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 5372
+        width: 2496
+        height: 1656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451d7bac08db52880800000000000000
+      internalID: -8636288349558550188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_15
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 3516
+        width: 192
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b16ed8edf3f031e0800000000000000
+      internalID: -2220006344434490952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_16
+      rect:
+        serializedVersion: 2
+        x: 8428
+        y: 828
+        width: 3576
+        height: 3056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d59c7ac4b718460800000000000000
+      internalID: 7242205244951190810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2908
+        width: 2500
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3080baa4b34358310800000000000000
+      internalID: 1406587887883585539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_18
+      rect:
+        serializedVersion: 2
+        x: 12284
+        y: 3180
+        width: 4
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4734a7ea01a6259b0800000000000000
+      internalID: -5092891608723340428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2516
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843ad0c2f5b828180800000000000000
+      internalID: -9114569454967217336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_20
+      rect:
+        serializedVersion: 2
+        x: 4188
+        y: 0
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf357bcf675c2a540800000000000000
+      internalID: 5017790049680839675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_21
+      rect:
+        serializedVersion: 2
+        x: 8180
+        y: 0
+        width: 184
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c775728eb8592d430800000000000000
+      internalID: 3806269063209375612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberNetSpriteNew_22
+      rect:
+        serializedVersion: 2
+        x: 12284
+        y: 0
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cfae93f9c7d3f40800000000000000
+      internalID: 5709856925889002506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
